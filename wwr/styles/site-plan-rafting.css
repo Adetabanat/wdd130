@@ -2,30 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam-&family=Poppins&display=swap');
 
 :root {
-    --primary-color: #3E442B;
-    --secondary-color: #6A7062;
-    --accent1-color: #8D909B;
-    --accent2-color: #8D909B;
+    --primary-color: #035E7B;
+    --secondary-color: #91B7C7;
+    --accent1-color: #371E30;
+    --accent2-color: #768948;
 
-    --heading-font: 'Kalam', sans-serif;
+    --heading-font: 'Kalam';
     --paragraph-font: 'Poppins', 'Helvetica', sans-serif;
 
-   --headline-color-on-white: #396E94;  
+   --headline-color-on-white: #035E7B;  
    --headline-color-on-color: white; 
-   --paragraph-color-on-white:#396E94;
+   --paragraph-color-on-white:#91B7C7;
    --paragraph-color-on-color: white;
 
-   --paragraph-background-color: #396E94;
-   --nav-link-color: #AAADC4;
-   --nav-hover-link-color: #D4AC0D;
-   --nav-background-color: #6A7062;
-   --nav-hover-background-color: #3E442B;
+   --paragraph-background-color: #371E30;
+   --nav-link-color: #B744B8;
+   --nav-hover-link-color: white;
+   --nav-background-color: #371E30;
+   --nav-hover-background-color: #91B7C7;
 }
 
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+
 }
 img {
     display: block;
@@ -39,11 +42,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
     text-align: center;
-  }
-  hr {
-    height: 3px;
-    margin: 35px 0;
-    background: var(--accent1-color);
   }
   header {
     padding: 1em;
