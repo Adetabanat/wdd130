@@ -10,10 +10,16 @@
     --heading-font: 'Kalam', sans-serif;
     --paragraph-font: 'Poppins', 'Helvetica', sans-serif;
 
-    --nav-background-color: #D6EEFF;
-    --nav-link-color: #AAADC4;
-    --nav-hover-link-color: #6A7062;
-    --nav-hover-background-color: #3E442B;
+   --headline-color-on-white: #396E94;  
+   --headline-color-on-color: white; 
+   --paragraph-color-on-white:#396E94;
+   --paragraph-color-on-color: white;
+
+   --paragraph-background-color: #396E94;
+   --nav-link-color: #AAADC4;
+   --nav-hover-link-color: #D4AC0D;
+   --nav-background-color: #6A7062;
+   --nav-hover-background-color: #3E442B;
 }
 
 body {
@@ -21,12 +27,90 @@ body {
     max-width: 960px;
     padding: 20px;
 }
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-
+h2 {
+    text-align: center;
+  }
+  hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent1-color);
+  }
+  header {
+    padding: 1em;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+  }
+  header > h1, header > h2 {
+    color: var(--headline-color-on-color);
+  }
+  p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em;
+  }
+  .colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  .primary {
+    background-color: var(--primary-color);
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+  }
+  p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+  }
+  nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  nav  {
+    list-style-type: none;
+    display: flex;
+  }
+  nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
 header {
     padding: 20px;
     background-color: var(--accent1-color);
