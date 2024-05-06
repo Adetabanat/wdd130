@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam-&family=Poppins&display=swap');
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -9,10 +9,10 @@ body{
     --primary-color: #3E442B;
     --secondary-color: #6A7062;
     --accent1-color: #8D909B;
-    --accent-color: #8D909B;
+    --accent2-color: #8D909B;
 
-    --heading-font: '_______', serif;
-    --paragraph-font: '______', serif;
+    --heading-font: Kalam;
+    --paragraph-font: Poppins, Helvetica, sans-serif;
 
     --nav-background-color: #D6EEFF;
     --nav-link-color: #AAADC4;
