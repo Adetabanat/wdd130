@@ -7,6 +7,7 @@ body {
     background-color: #f8f8f8;
     margin: 0;
     padding: 0;
+  
   }
 * {
     margin: 0;
@@ -105,3 +106,9 @@ main{
     grid-column: 2/3;
     margin: 0;
 }
+footer {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid black;
+  }
