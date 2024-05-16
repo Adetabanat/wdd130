@@ -32,7 +32,10 @@ nav a {
 
 h1 {
     color: steelblue;
-
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 img {
@@ -53,6 +56,8 @@ aside {
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+    padding: 0;
+    top: 0;
 }
 
 aside img {
@@ -71,10 +76,9 @@ main img {
     margin: 0 7rem 1rem 1rem;
 }
 
-header,footer, .grid {
-    max-width: 840px;
-    margin:0 auto;
-   
+header,.grid,footer{
+  margin: 0 auto;
+  max-width: 840px;
 }
 
 /* Class Selectors */
