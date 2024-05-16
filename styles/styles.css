@@ -34,7 +34,8 @@ h1 {
     color: steelblue;
     font-size: 24px;
     font-weight: bold;
-    margin-top: 0;
+    border-bottom: 2px solid steelblue;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -54,10 +55,8 @@ aside {
     width: 20rem;
     margin: 1rem;
     position: relative;
-    grid-column: 1/2;
     grid-row: 1/2;
     padding: 0;
-    top: 0;
 }
 
 aside img {
