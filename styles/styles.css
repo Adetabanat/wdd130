@@ -72,8 +72,9 @@ main img {
 }
 
 header,footer, .grid {
+    max-width: 840px;
     margin:0 auto;
-    max-width: 840;
+   
 }
 
 /* Class Selectors */
@@ -96,7 +97,6 @@ aside h2 {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 2fr;
-    gap: none;
   }
 main{
     grid-column: 2/3;
