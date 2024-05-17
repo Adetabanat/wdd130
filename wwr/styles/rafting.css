@@ -45,9 +45,9 @@ header {
   display: grid;
   align-items: center;
   margin: 1rem auto;
-  grid-template-columns: 1fr 1fr 2fr;
-  border-bottom: 1px solid var(--accent1-color); /* Changed from black to var(--accent1-color) */
-  max-width: 1000px;
+  grid-template-columns: 1fr 2fr;
+  border-bottom: 1px solid white; /* Changed from black to var(--accent1-color) */
+  max-width: auto;
 }
 
 nav {
@@ -163,6 +163,8 @@ footer p {
 
 .logo img {
   margin: 0 0.25rem 0 1rem;
+  max-width: 50px;
+
 }
 
 .header-logo {
