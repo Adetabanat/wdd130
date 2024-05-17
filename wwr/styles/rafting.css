@@ -21,7 +21,7 @@
 
 body {
   font-family: "Libre Baskerville", serif;
-  background-color: #91B7C7;
+  background-color: var(--secondary-color); /* Changed from #91B7C7 to var(--secondary-color) */
   font-size: 22px;
   margin: 0;
   padding: 0;
@@ -33,46 +33,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: white;
+  color: var(--paragraph-color-on-color); /* Changed from white to var(--paragraph-color-on-color) */
 }
 
 h2 {
-  color: navy;
+  color: var(--primary-color); /* Changed from navy to var(--primary-color) */
   margin: 0;
 }
+
 header {
   display: grid;
   align-items: center;
   margin: 1rem auto;
-	grid-template-columns: 1fr 1fr 2fr;
-	border-bottom: 1px solid black;
-	max-width: 1000px;
+  grid-template-columns: 1fr 1fr 2fr;
+  border-bottom: 1px solid var(--accent1-color); /* Changed from black to var(--accent1-color) */
+  max-width: 1000px;
 }
 
 nav {
-	text-align: right;
+  text-align: right;
 }
+
 .grid {
-	display: flex;
-	list-style: none;
-	justify-content: space-between;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
   grid-column: 2/3;
 }
+
 .grid a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
+  display: block;
+  color: var(--primary-color); /* Changed from navy to var(--primary-color) */
+  padding: 20px;
+  text-decoration: none;
   align-items: center;
 }
+
 .grid li {
-	flex: 1 1 100%;
+  flex: 1 1 100%;
 }
 
 .grid a:hover {
-	color: white;
-	font-weight: 700;
-	text-decoration: underline;
+  color: var(--nav-hover-link-color); /* Changed from white to var(--nav-hover-link-color) */
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 main {
@@ -80,7 +84,6 @@ main {
   margin: 0 auto;
   padding: 20px;
 }
-
 
 .main {
   width: 100%;
@@ -99,10 +102,10 @@ main {
 
 .hero h1 {
   position: absolute;
-  left: 700px;
+  left: 50%;
   top: 10px;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--headline-color-on-color); /* Changed from white to var(--headline-color-on-color) */
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -112,7 +115,7 @@ main {
   right: 300px;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
-  color: #fff;
+  color: var(--paragraph-color-on-color); /* Changed from #fff to var(--paragraph-color-on-color) */
 }
 
 .hero article img {
@@ -126,23 +129,24 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
 }
 
 footer p {
   font-size: 20px;
-  color: navy;
+  color: var(--primary-color); /* Changed from navy to var(--primary-color) */
   align-items: center;
 }
+
 .sociallinks {
   display: flex;
   align-items: center;
-  
 }
+
 .sociallinks img {
   width: 30px;
   height: 30px;
 }
+
 .sociallinks a {
   margin-left: 20px;
 }
@@ -156,9 +160,12 @@ footer p {
   justify-self: center;
   align-self: center;
 }
+
 .logo img {
-	margin: 0 0.25rem 0 1rem;
-}.header-logo {
+  margin: 0 0.25rem 0 1rem;
+}
+
+.header-logo {
   max-width: 200px;
   height: auto;
 }
@@ -172,7 +179,6 @@ footer p {
   height: auto;
 }
 
-
 .adventure-section {
   text-align: center;
 }
@@ -183,6 +189,7 @@ footer p {
   gap: 20px;
   margin-top: 20px;
 }
+
 .image-container img {
   max-width: 300px;
   height: auto;
