@@ -103,7 +103,7 @@ aside h2 {
     grid-template-columns: 1fr 2fr;
   }
 main{
-    grid-column: 2/3;
+    grid-column: 1/2;
     margin: 0;
 }
 footer {
