@@ -47,7 +47,6 @@ header {
   margin: 1rem auto;
   grid-template-columns: 1fr 2fr;
   border-bottom: 1px solid white; /* Changed from black to var(--accent1-color) */
-  max-width: auto;
 }
 
 nav {
@@ -135,6 +134,7 @@ footer p {
   font-size: 20px;
   color: var(--primary-color); /* Changed from navy to var(--primary-color) */
   align-items: center;
+  
 }
 
 .sociallinks {
