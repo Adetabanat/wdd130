@@ -1,3 +1,4 @@
 {
-    "workbench.editor.closeEmptyGroups": true
+    "workbench.editor.closeEmptyGroups": true,
+    "liveServer.settings.port": 5501
 }
