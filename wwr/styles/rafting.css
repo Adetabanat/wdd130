@@ -291,8 +291,6 @@ button[type="submit"]:hover {
   margin-bottom: 30px;
   font-size: 32px;
   font-weight: 200px;
-  color: #333;
-  justify-content: center;
 }
 
 .profile-container {
@@ -337,7 +335,11 @@ button[type="submit"]:hover {
 .company-info p {
   margin: 10px 0;
 }
-
+iframe{
+  display: flex;
+  grid-template-columns: auto;
+  float: right;
+  }
 .map {
   float: right;
   display: flex;
