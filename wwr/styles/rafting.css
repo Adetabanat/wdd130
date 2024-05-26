@@ -370,7 +370,7 @@ main {
 
 /* Footer */
 footer {
-  background: #333;
+
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -381,7 +381,7 @@ footer .social-links {
   margin: 10px 0;
 }
 
-footer .social-links a {
+footer  .a {
   margin: 0 10px;
 }
 
