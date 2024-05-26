@@ -285,6 +285,12 @@ button[type="submit"]:hover {
   display: flex;
   justify-content: center;
 }
+.employee-profiles h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  margin-bottom: 2rem;
+}
 
 .employee-profiles h2 {
   text-align: center;
@@ -324,11 +330,12 @@ button[type="submit"]:hover {
 }
 
 .company-info {
-  flex-basis: 50%;
+  text-align: center;
 }
 
 .company-info h2 {
   margin-top: 0;
+  text-align: center;
 }
 
 .company-info p {
@@ -336,7 +343,7 @@ button[type="submit"]:hover {
 }
 iframe{
   display: flex;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr;
   float: right;
   }
 .map {
