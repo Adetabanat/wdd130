@@ -25,18 +25,17 @@
 body {
   font-family: "Libre Baskerville", serif;
   line-height: 1.6;
-  background-color: #f5f5f5;
-  color: #333333;
+  background-color: var(--primary-color);
+  
 }
 
 header {
-  background-color: #007bff;
-  color: #ffffff;
+  background-color: var(--primary-color);
   padding: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
+  border-bottom: 5px solid #91B7C7;
 }
 
 .logo {
@@ -93,20 +92,25 @@ nav ul li a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--primary-color);
+  color: whitesmoke;
   text-align: center;
   margin: 20px;
 }
 h1{
   font-family: "Libre Baskerville", serif;
   font-style: italic;
+  font-size: x-large;
+
 }
-p,{
-  color: var(--paragraph-color-on-white);
+p{
+  color: white;
+  font-style: italic;
+  font-size: x-large;
 }
 
+
 h2 {
-  color: var(--primary-color);
+  color: #91B7C7;
   margin: 0;
 }
 
@@ -124,7 +128,7 @@ h2 {
 .hero-content {
   position: absolute;
   text-align: center;
-  color: white;
+  color: #91B7C7;
   z-index: 1;
   max-width: 600px;
   padding: 20px;
@@ -132,11 +136,12 @@ h2 {
 .hero h1 {
   font-size: 2.5rem;
     margin-bottom: 20px;
+    color:white;
 }
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   margin-bottom: 20px;
-  line-height: 1.8;
+
 }
 
 .hero article {
@@ -145,7 +150,7 @@ h2 {
   right: 0;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
-  color: white
+  color: #91B7C7
 }
 
 .hero article img {
@@ -156,7 +161,7 @@ h2 {
   margin-left: 20px;
 }
 .article p{
-  color: #333333;
+  color: white
 }
 a {
   color: white;
@@ -181,19 +186,22 @@ a:hover {
 
 .history-section,
 .adventure-section {
-  background-color: white;
+  background-color: #91B7C7;
   padding: 20px;
   margin-bottom: 40px;
 }
 
-
-.adventure-section h2 {
-  text-align: center;
-  margin-bottom: 30px;
+.history-section p{
+  color: #000;
 }
+
+
 .history-section h2,
 .adventure-section h2 {
   text-align: center;
+  font-size: x-large;
+  margin-bottom: 30px;
+  color: #000;
 }
 
 .adventure-section .image-container {
@@ -239,7 +247,7 @@ main {
 .contact-form-section {
   padding: 20px;
   margin-bottom: 20px;
-  background: #fff;
+  background: #91B7C7;
 
 }
 .employee-profiles .profile-container {
@@ -280,10 +288,11 @@ main {
 
 .contact-info {
   flex: 1;
-  margin-right: 2rem; /* Spacing between contact info and social links/map */
+  margin-right: 2rem; 
 }
 .company-info {
   margin-bottom: 1rem;
+
 }
 .social-links {
   display: flex;
@@ -313,17 +322,12 @@ main {
 .contact-info .company-info p {
   margin: 5px 0;
   font-size: 16px;
-  color: var(--paragraph-color-on-white);
+  color: black;
 }
 
 .contact-info i {
   margin-right: px;
 }
-
-/* Map Section */
-
-
-/* About Section */
 .about {
   padding: 20px;
   margin: 20px;
@@ -331,7 +335,10 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-
+.about h2 {
+  margin: 10px 0;
+  color: #000;
+}
 .about p {
   margin: 10px 0;
   color: #000;
@@ -354,9 +361,12 @@ main {
   border-radius: 5px;
   margin-top: 10px;
 }
+.cta h2,.trips h2,.trip-table h2{
+  color:white;
+}
 
 .about .cta-button:hover {
-  background: var(--primary-color);
+  background: #91B7C7;
 }
 
 /* Contact Form Section */
@@ -374,9 +384,10 @@ main {
   max-width: 600px;
 }
 
-.contact-form h2 {
+.contact-form-section h2,.employee-profiles h2{
   margin-bottom: 20px;
   text-align: center;
+  color: #000;
 }
 
 .contact-form .form-group {
@@ -503,7 +514,7 @@ footer .sociallinks a img:hover {
 }
 
 .trip {
-  background-color: white;
+  background-color: #91B7C7;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 20px;
@@ -619,7 +630,7 @@ footer .sociallinks a img:hover {
 
 /* Adjust footer styles as needed */
 footer {
-  background-color: #333333;
+  background-color: #333;
   color: #ffffff;
   text-align: center;
   padding: 20px 0;
