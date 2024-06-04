@@ -335,11 +335,11 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.about h2 {
+.about h2 ,.newsletter h2 {
   margin: 10px 0;
   color: #000;
 }
-.trips p {
+.trips p, .n {
   color: #000;
 }
 .about p {
