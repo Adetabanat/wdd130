@@ -339,6 +339,9 @@ main {
   margin: 10px 0;
   color: #000;
 }
+.trips p {
+  color: #000;
+}
 .about p {
   margin: 10px 0;
   color: #000;
@@ -475,7 +478,7 @@ footer .copyright p {
   margin: 0;
 }
 footer .sociallinks a img:hover {
-  transform: scale(1.2); /* Add hover effect */
+  transform: scale(1.2); 
 }
 .radio-group {
   padding: 5px;
@@ -520,7 +523,12 @@ footer .sociallinks a img:hover {
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+.trips h2 .trip-table h2{
+  color: white;
+}
+ .trip h3{
+  color: #371E30;
+}
 .trip img {
   width: 100%;
   height: auto;
