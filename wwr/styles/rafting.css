@@ -185,6 +185,8 @@ a:hover {
   background-color: var(--secondary-color);
   padding: 20px;
   margin-bottom: 20px;
+  text-align: center;
+
 }
 
 .history-section p, .adventure-section figure figcaption, .trips p, .n {
